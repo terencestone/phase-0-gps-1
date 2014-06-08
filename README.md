@@ -4,6 +4,13 @@ These drills are designed as an introduction to the Javascript language. Each
 drill has a nearly empty source file and a corresponding set of tests in the
 'spec/` directory.
 
+## Sections
+* [Functions](#functions)
+* [Collections](#collections)
+* [Loops](#loops)
+* [Objects & Classes](#objects--classes)
+
+## Prerequisites
 The tests are designed to be run locally, on the command line, using `node`. If
 you don't have the `node` program installed, install node:
 
