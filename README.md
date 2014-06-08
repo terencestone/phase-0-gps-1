@@ -1,10 +1,49 @@
 # Javascript Drills
 
-These drills are designed as an introduction to the Javascript language.
+These drills are designed as an introduction to the Javascript language. Each
+drill has a nearly empty source file and a corresponding set of tests in the
+'spec/` directory.
+
+The tests are designed to be run locally, on the command line, using `node`. If
+you don't have the `node` program installed, install node:
+
+```shell
+brew install node
+```
+
+Then, using the Node package manager (`npm`) install the `jasmine-node` library
+so you can run the tests:
+
+```shell
+npm install jasmine-node -g
+```
+
+After installing `jasmine-node`, you should see output similiar to this when you
+run the `jasmine-node` script:
+
+```shell
+$ jasmine-node
+USAGE: jasmine-node [--color|--noColor] [--verbose] [--coffee] directory
+
+Options:
+  --autotest         - rerun automatically the specs when a file changes
+  --watch PATH       - when used with --autotest, watches the given path(s) and
+runs all tests if a change is detected
+  --color            - use color coding for output
+...
+...
+```
+
+If you're having trouble running `jasmine-node`, try opening a new terminal
+window.
+
 
 ## Functions
 
 ### Rectangle
+
+**Edit Source:** `rectangle.js`  
+**Test:** `jasmine-node spec/rectangle_spec.js`
 
 In this drill, write a number of functions that calculate certain properies of a
 rectangle object. A rectangle object is just a Javascript object with two
@@ -29,6 +68,9 @@ http://www.mathopenref.com/rectanglediagonals.html
 
 
 ### Triangle
+**Edit Source:** `triangle.js`  
+**Test:** `jasmine-node spec/triangle_spec.js`
+
 Write a function `validTriangle` which takes as its input three
 non-negative numbers.  It should return `true` if the three numbers could
 form the side lengths of a triangle and `false` otherwise.
@@ -55,6 +97,9 @@ You might want to read this [Wikipedia article about Pythagorean triples](http:/
 ## Collections
 
 ### Average
+**Edit Source:** `average.js`  
+**Test:** `jasmine-node spec/average_spec.js`
+
 Add four instance methods to Javascript's `Array`:
 
 1. `total`, which returns the total of all the values in the array
@@ -68,6 +113,9 @@ provided the shells of each method for you.  All you have to do is make them
 work.
 
 ### Pad
+**Edit Source:** `pad.js`  
+**Test:** `jasmine-node spec/pad_spec.js`
+
 Add a method `pad` to Javascript's `Array`. The method should accept a minimum
 size (non-negative integer) and an optional pad value as arguments.
 
@@ -94,6 +142,9 @@ array.
 ## Loops
 
 ### Count Between
+**Edit Source:** `count_between.js`  
+**Test:** `jasmine-node spec/count_between_spec.js`
+
 Write a function `countBetween` which takes three arguments as input:
 
 1. An `Array` of integers
@@ -116,6 +167,9 @@ countBetween([0], 0, 0);              // => 1
 ```
 
 ### Factorial
+**Edit Source:** `factorial.js`  
+**Test:** `jasmine-node spec/factorial_spec.js`
+
 Write a `factorial` function which takes as its input a non-negative integer
 and calculates the factorial of that number.
 
@@ -132,6 +186,9 @@ See the Wikipedia article on the factorial:
 http://en.wikipedia.org/wiki/Factorial) for more information.
 
 ### Longest String
+**Edit Source:** `longest_string.js`  
+**Test:** `jasmine-node spec/longest_string_spec.js`
+
 Write a function `longestString` which takes as its input an `Array` of
 `Strings` and returns the longest `String` in the `Array`.
 
@@ -144,6 +201,9 @@ longestString(['cat', 'applesauce', 'apples']); // => "applesauce"
 If the input `Array` is empty `longestString` should return `null`.
 
 ### Times Table
+**Edit Source:** `times_table.js`  
+**Test:** `jasmine-node spec/times_table_spec.js`
+
 Implement a function called `timesTable` which takes as its input an
 integer and prints out a times table with that number of rows.
 
@@ -167,6 +227,9 @@ Hint: You'll need two loops, one nested in the other
 ## Objects & Classes
 
 ### Guessing Game
+**Edit Source:** `guessing_game.js`  
+**Test:** `jasmine-node spec/guessing_game_spec.js`
+
 Create a `GuessingGame` constructor function which is initialized with an
 integer called `answer`.
 
