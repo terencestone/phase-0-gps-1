@@ -5,17 +5,18 @@ These drills are designed as an introduction to the Javascript language.
 ## Functions
 
 ### Rectangle
-Write four functions that take a `rectangle` object and certain properties of
-the rectangle.
 
-In this drill, a rectangle object is really just a plain old Javascript object
-with two properties, `width` and `height`. Here's an example:
+In this drill, write a number of functions that calculate certain properies of a
+rectangle object. A rectangle object is just a Javascript object with two
+properties, `width` and `height`. Here's an example:
 
 ```javascript
 var rectangle = {width: 10, height: 20};
 ```
 
 A few sample rectangle objects have been included in the tests.
+
+Here are the functions you'll need to write to get the tests to pass.
 
 1. `area(rectangle)`, which returns the area of the rectangle
 2. `perimeter(rectangle)`, which returns the perimeter of the rectangle
@@ -115,7 +116,7 @@ countBetween([0], 0, 0);              // => 1
 ```
 
 ### Factorial
-Write a `factorial()` function which takes as its input a non-negative integer
+Write a `factorial` function which takes as its input a non-negative integer
 and calculates the factorial of that number.
 
 The factorial of a number is the product of all integers from 1 up to that
@@ -143,7 +144,7 @@ longestString(['cat', 'applesauce', 'apples']); // => "applesauce"
 If the input `Array` is empty `longestString` should return `null`.
 
 ### Times Table
-Implement a function called `timesTable()` which takes as its input an
+Implement a function called `timesTable` which takes as its input an
 integer and prints out a times table with that number of rows.
 
 The numbers can be separated by any spaces or tabs, but each row must be on a
@@ -169,12 +170,12 @@ Hint: You'll need two loops, one nested in the other
 Create a `GuessingGame` constructor function which is initialized with an
 integer called `answer`.
 
-Define an instance method `guess()` which takes an integer called `guess`
+Define an instance method `guess` which takes an integer called `guess`
 as its input. `guess` should return the string `'high'` if the `guess` is
 larger than the `answer`, `'correct'` if the `guess` is equal to the `answer`,
 and `'low'` if the `guess` is lower than the `answer`.
 
-Define an instance method `GuessingGame.isSolved()` which returns `true` if the
+Define an instance method `isSolved` which returns `true` if the
 most recent `guess` was correct and `false` otherwise.
 
 For example:
