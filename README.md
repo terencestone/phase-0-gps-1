@@ -49,7 +49,7 @@ window.
 
 ### Rectangle
 
-**Edit Source:** `rectangle.js`  
+**Edit Source:** `rectangle.js`
 **Test:** `jasmine-node spec/rectangle_spec.js`
 
 In this drill, write a number of functions that calculate certain properies of a
@@ -75,7 +75,7 @@ http://www.mathopenref.com/rectanglediagonals.html
 
 
 ### Triangle
-**Edit Source:** `triangle.js`  
+**Edit Source:** `triangle.js`
 **Test:** `jasmine-node spec/triangle_spec.js`
 
 Write a function `validTriangle` which takes as its input three
@@ -104,7 +104,7 @@ You might want to read this [Wikipedia article about Pythagorean triples](http:/
 ## Collections
 
 ### Average
-**Edit Source:** `average.js`  
+**Edit Source:** `average.js`
 **Test:** `jasmine-node spec/average_spec.js`
 
 Add four instance methods to Javascript's `Array`:
@@ -120,7 +120,7 @@ provided the shells of each method for you.  All you have to do is make them
 work.
 
 ### Pad
-**Edit Source:** `pad.js`  
+**Edit Source:** `pad.js`
 **Test:** `jasmine-node spec/pad_spec.js`
 
 Add a method `pad` to Javascript's `Array`. The method should accept a minimum
@@ -149,7 +149,7 @@ array.
 ## Loops
 
 ### Count Between
-**Edit Source:** `count_between.js`  
+**Edit Source:** `count_between.js`
 **Test:** `jasmine-node spec/count_between_spec.js`
 
 Write a function `countBetween` which takes three arguments as input:
@@ -174,7 +174,7 @@ countBetween([0], 0, 0);              // => 1
 ```
 
 ### Factorial
-**Edit Source:** `factorial.js`  
+**Edit Source:** `factorial.js`
 **Test:** `jasmine-node spec/factorial_spec.js`
 
 Write a `factorial` function which takes as its input a non-negative integer
@@ -193,7 +193,7 @@ See the Wikipedia article on the factorial:
 http://en.wikipedia.org/wiki/Factorial) for more information.
 
 ### Longest String
-**Edit Source:** `longest_string.js`  
+**Edit Source:** `longest_string.js`
 **Test:** `jasmine-node spec/longest_string_spec.js`
 
 Write a function `longestString` which takes as its input an `Array` of
@@ -208,14 +208,12 @@ longestString(['cat', 'applesauce', 'apples']); // => "applesauce"
 If the input `Array` is empty `longestString` should return `null`.
 
 ### Times Table
-**Edit Source:** `times_table.js`  
+**Edit Source:** `times_table.js`
 **Test:** `jasmine-node spec/times_table_spec.js`
 
-Implement a function called `timesTable` which takes as its input an
-integer and prints out a times table with that number of rows.
+Implement a function called `timesTable` which takes as its input an integer representing a number of rows and produces a string representing a times table with that number of rows.
 
-The numbers can be separated by any spaces or tabs, but each row must be on a
-new line.  This means it's ok if the columns don't line up.
+The numbers can be separated by any spaces or tabs, but each row must be on a new line.  This means it's ok if the columns don't line up.
 
 For example, `timesTable(5)` should print the following out to the screen:
 
@@ -228,13 +226,10 @@ For example, `timesTable(5)` should print the following out to the screen:
 ```
 
 Again, you don't need to worry about the spacing between columns.
-
-Hint: You'll need two loops, one nested in the other
-
 ## Objects & Classes
 
 ### Guessing Game
-**Edit Source:** `guessing_game.js`  
+**Edit Source:** `guessing_game.js`
 **Test:** `jasmine-node spec/guessing_game_spec.js`
 
 Create a `GuessingGame` constructor function which is initialized with an
