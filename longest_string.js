@@ -1,3 +1,3 @@
-var longestString = function(array) {
+function longestString(array) {
   // Your code here!
-};
+}

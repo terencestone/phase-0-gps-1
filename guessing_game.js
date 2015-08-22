@@ -1,3 +1,3 @@
-var GuessingGame = function(answer) {
+function GuessingGame(answer) {
   // Your code here!
-};
+}

@@ -1,3 +1,3 @@
-var countBetween = function(array, lowerBound, upperBound) {
+function countBetween(array, lowerBound, upperBound) {
   // Your code goes here!
-};
+}
