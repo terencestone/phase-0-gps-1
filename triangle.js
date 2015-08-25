@@ -1,3 +1,3 @@
-var validTriangle = function(a, b, c) {
+function validTriangle(a, b, c) {
   // Your code goes here!
-};
+}

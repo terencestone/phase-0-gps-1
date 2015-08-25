@@ -1,3 +1,3 @@
-var timesTable = function(rows) {
+function timesTable(rows) {
   // Your code here!
-};
+}
