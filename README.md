@@ -87,7 +87,7 @@ handling negative inputs: garbage in, garbage out.
 
 For example:
 
-```javascript
+```
 validTriangle(0,0,0) # => false, because a triangle can't have 0-length sides
 
 validTriangle(1,1,1) # => true, an equilateral triangle
