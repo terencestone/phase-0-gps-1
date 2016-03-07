@@ -2,10 +2,14 @@ require('./spec_helper.js');
 include('pad.js');
 
 describe("Array", function() {
-  var emptyArray  = [];
-  var array       = [1,2,3];
-  var longArray   = [1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3];
-  var allArrays   = [emptyArray, array, longArray];
+  var emptyArray, array, longArray, allArrays;
+  
+  beforeEach(function() {
+    emptyArray  = [];
+    array       = [1,2,3];
+    longArray   = [1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3];
+    allArrays   = [emptyArray, array, longArray];
+  });
 
   describe("pad", function() {
     it("doesn't pad a long array", function() {
