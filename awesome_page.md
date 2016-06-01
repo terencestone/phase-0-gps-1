@@ -10,7 +10,7 @@ if(!codeblock)
 }
 
 ```
-[link](http://www.google.com)
+[link](http://www.yahoo.com)
 
 
 ![img](image.png)
