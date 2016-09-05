@@ -1,3 +1,8 @@
 function validTriangle(a, b, c) {
-  // Your code goes here!
+  if (a === 0 || b === 0 || c === 0) {
+    return false;
+  } else {
+    return true;
+  }
+
 }
